@@ -1,0 +1,62 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Title",
+            "name": "title",
+            "kind": "GroupingOrMeasure"            
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "conditions": [{
+				"title": {
+					"max": 1
+				}
+			}],
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "title"                        
+                    }
+                }
+            }
+        }
+    ],
+    "objects": {
+        "TextDetails": {
+            "displayName": "Text settings",
+            "properties": {
+                "fontSize": {
+                    "displayName": "Size",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "fontFamily": {
+                    "displayName": "Family",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "bold": {
+                    "displayName": "Bold",
+                    "type": { 
+                        "bool": true 
+                    }
+                },
+                "scrollable": {
+                    "displayName": "Scrollable",
+                    "type": { 
+                        "bool": true 
+                    }
+                },
+                "color": {
+                    "displayName": "Color",
+                    "type": {
+                        "text": true
+                    }
+                }                
+            }
+        }
+    }   
+}

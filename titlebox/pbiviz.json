@@ -1,0 +1,25 @@
+{
+  "visual": {
+    "name": "titlebox",
+    "displayName": "Titlebox",
+    "guid": "titleboxF0BB233DD2994773B611FAC769C85681",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "This visual helps you display text from your data set.",
+    "supportUrl": "http://www.ilitia.com",
+    "gitHubUrl": "https://github.com/ilitia-technologies"
+  },
+  "apiVersion": "1.6.0",
+  "author": {
+    "name": "Javier Fernández Corres",
+    "email": "javierf@ilitia.com"
+  },
+  "assets": {
+    "icon": "assets/title-icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json",
+  "stringResources": []
+}
